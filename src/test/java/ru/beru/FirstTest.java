@@ -1,22 +1,24 @@
 package ru.beru;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+
+
+import io.qameta.allure.Description;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.interactions.Actions;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FirstTest extends WebDriverSettings {
 
 
     @Test
+    @DisplayName("Log in")
+    @Description("Check that logging in is correct with correct password and username")
     public void firstTest() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
@@ -55,11 +57,12 @@ public class FirstTest extends WebDriverSettings {
         //i.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class=\"header2__nav\"][.//span[@class=" +
                 "\"header2-nav-item__text\"]]")));
-        System.out.println("wtww");
-        WebElement i = driver.findElement(By.xpath("//div[@class=\"header2__nav\"][.//span[@class=" +
-                "\"header2-nav-item__text\"]]"));
-        System.out.println(i.getText());
-        Assert.assertEquals(i.getText(), "Мой профиль");
+        //System.out.println("wtww");
+        WebElement i = driver.findElement(By.xpath("//div[@class='header2-nav__user']//span[@title]"));
+
+        i.getAttribute("title");
+        //System.out.println(i.getText());
+        assertEquals(i.getAttribute("title"), "Мой профиль");
         //driver.findElement(By.className("header2-user")).
 
         //WebElement header = driver.findElement(By.className("unique-selling-proposition-line__region"));

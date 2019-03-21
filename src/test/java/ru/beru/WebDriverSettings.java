@@ -1,7 +1,9 @@
 package ru.beru;
 
-import org.junit.After;
-import org.junit.Before;
+
+import io.qameta.allure.Attachment;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +13,8 @@ public class WebDriverSettings  {
 
     public ChromeDriver driver;
 
-    @Before
+
+    @BeforeEach
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
@@ -24,8 +27,14 @@ public class WebDriverSettings  {
     }
 
 
-    @After
+    @AfterEach
     public void close() {
         //driver.quit();
     }
+
+//    @Attachment
+//    public Byte[] performedActions(WebElement element) {
+//
+//        //return element.toString();
+//    }
 }
