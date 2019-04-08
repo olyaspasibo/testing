@@ -21,7 +21,9 @@ public class ThirdTest extends WebDriverSettings {
     @DisplayName("Delivery pressing test")
     @Description("Check that delivery is free. Add to the cart. Check again.")
     public void searchInCart() {
-        WebDriverWait wait = new WebDriverWait(driver, 8);
+        WebDriverWait wait = new WebDriverWait(driver, 8); //Pavel: to parent class
+        
+        // Pavel: please remove the commmented code bellow
 //
 //        // Open items' catalog
 //        WebElement itemsCatalog = driver.findElement(By.xpath("//button[.//span[contains(text(), 'Каталог товаров')]]"));
@@ -44,11 +46,11 @@ public class ThirdTest extends WebDriverSettings {
 //        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
 //                "//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]")));
 
-
-        driver.get("https://beru.ru/catalog/elektricheskie-zubnye-shchetki/79832/list?hid=278374&track=fr_ctlg");
+    
+        driver.get("https://beru.ru/catalog/elektricheskie-zubnye-shchetki/79832/list?hid=278374&track=fr_ctlg"); //Pavel: this step too tricky)
 
         // Set up the price range
-        WebElement in = driver.findElement(By.xpath("//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]"));
+        WebElement in = driver.findElement(By.xpath("//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]")); //Pavel: do not use such classes because these ones can be generate dinamicly
         takeScreenShot(in);
         in.click();
         in.sendKeys("999");
@@ -66,7 +68,7 @@ public class ThirdTest extends WebDriverSettings {
             wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//span[contains(text(), " +
                 "'В корзину')]")));
         // Create list for all brush items. List consist of buttons "Add to the cart"
-        List <WebElement> new_p =  driver.findElements(By.cssSelector("span._1u3j_pk1db.n2qB2SKKgz._3-NzCCibhA.AJD1X1j5bE"));
+        List <WebElement> new_p =  driver.findElements(By.cssSelector("span._1u3j_pk1db.n2qB2SKKgz._3-NzCCibhA.AJD1X1j5bE")); // Pavel: new_p - it is not  good name for variable (check code conventions)
 
         // Check that items' price is in correct diapason
         for (int i = 1; i < new_p.size(); i++){
