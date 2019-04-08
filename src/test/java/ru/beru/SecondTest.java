@@ -16,14 +16,16 @@ public class SecondTest extends WebDriverSettings{
     @DisplayName("Change city")
     @Description("Check the city is applied to the personal page")
     public void changeCity() {
-        WebDriverWait wait = new WebDriverWait(driver, 8);
+        WebDriverWait wait = new WebDriverWait(driver, 8); // move to parent class
 
         WebElement itemRegion = driver.findElement(By.xpath("//span[contains(text(), 'Регион')]/span"));
         takeScreenShot(itemRegion);
         itemRegion.click();
 
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//input[@class=\"input__control\"]")));
-        WebElement city = driver.findElement(By.xpath("//input[@class=\"input__control\"]"));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//input[@class=\"input__control\"]"))); 
+        //please use css expressions in case when you are trying to find elements by class , for example in this case you can use "input.input__control"
+        WebElement city = driver.findElement(By.xpath("//input[@class=\"input__control\"]")); // duplicates should be  moved into variabls
+       
         takeScreenShot(city);
 
         city.click();
@@ -33,7 +35,7 @@ public class SecondTest extends WebDriverSettings{
         //Choose "Хвалынск" in the city recommendations' list
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
-                "suggest2-item_type_text\"]")));
+                "suggest2-item_type_text\"]"))); //1. Using css locator will be better in this case 2. These two lines can be union
         WebElement newCity = driver.findElement(By.xpath("//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
                 "suggest2-item_type_text\"][.//strong[contains(text(), 'Хвалынск')]]"));
         takeScreenShot(newCity);
@@ -50,7 +52,7 @@ public class SecondTest extends WebDriverSettings{
         WebElement cityField =  driver.findElement(By.cssSelector("span.region-form-opener>span>span"));
 
         //Check the city field was change to "Хвалынск"
-        assertEquals(cityField.getText(), "Хвалынск");
+        assertEquals(cityField.getText(), "Хвалынск"); // "Хвалынск" is used more than 3 times and should be moved into variables
 
         logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
@@ -67,7 +69,7 @@ public class SecondTest extends WebDriverSettings{
         //Check the city field was changed here
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("personal")));
         WebElement cityFieldInProfile = driver.findElement(By.xpath("//h2[@class=\"n-headline__content title title_size_20\"]" +
-                "[.//span[@class=\"link__inner\"]]"));
+                "[.//span[@class=\"link__inner\"]]")); //replace with css locator
         assertEquals(cityFieldInProfile.getText(), "Ваш город Хвалынск");
 
     }
