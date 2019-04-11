@@ -1,21 +1,33 @@
 package ru.beru;
 
-
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+
+//@Parameters({"Хвалынск"})
 public class SecondTest extends WebDriverSettings{
-    @Test
+
+    @DataProvider(name = "SetUpCity")
+
+    public static Object[][] citySetUp() {
+
+        return new Object[][] { {"Хвалынск" }};
+
+    }
+
+    @Test(dataProvider = "SetUpCity")
     @DisplayName("Change city")
     @Description("Check the city is applied to the personal page")
-    public void changeCity() {
+    public void changeCity(String city_test) {
         WebDriverWait wait = new WebDriverWait(driver, 8);
 
         WebElement itemRegion = driver.findElement(By.xpath("//span[contains(text(), 'Регион')]/span"));
@@ -27,13 +39,13 @@ public class SecondTest extends WebDriverSettings{
         takeScreenShot(city);
 
         city.click();
-        city.sendKeys("Хвалынск");
+        city.sendKeys(city_test);
 
 
         //Choose "Хвалынск" in the city recommendations' list
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
-                "suggest2-item_type_text\"]")));
+                        "suggest2-item_type_text\"]")));
         WebElement newCity = driver.findElement(By.xpath("//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
                 "suggest2-item_type_text\"][.//strong[contains(text(), 'Хвалынск')]]"));
         takeScreenShot(newCity);
@@ -45,12 +57,14 @@ public class SecondTest extends WebDriverSettings{
         takeScreenShot(continueWithNewRegionButton);
         continueWithNewRegionButton.click();
 
-
+        // TODO: write one correct css selector for wait
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("header-search")));
-        WebElement cityField =  driver.findElement(By.cssSelector("span.region-form-opener>span>span"));
+        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("span.region-form-opener>span>span")));
 
-        //Check the city field was change to "Хвалынск"
-        assertEquals(cityField.getText(), "Хвалынск");
+        WebElement cityField = driver.findElement(By.cssSelector("span.region-form-opener>span>span"));
+
+        // Check the city field was change to "Хвалынск"
+        Assert.assertEquals(cityField.getText(), city_test);
 
         logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
@@ -68,7 +82,8 @@ public class SecondTest extends WebDriverSettings{
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("personal")));
         WebElement cityFieldInProfile = driver.findElement(By.xpath("//h2[@class=\"n-headline__content title title_size_20\"]" +
                 "[.//span[@class=\"link__inner\"]]"));
-        assertEquals(cityFieldInProfile.getText(), "Ваш город Хвалынск");
+        Assert.assertTrue(cityFieldInProfile.getText().contains(city_test));
 
     }
+
 }

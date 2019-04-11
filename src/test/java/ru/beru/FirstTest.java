@@ -3,11 +3,12 @@ package ru.beru;
 
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+import org.testng.annotations.TestInstance;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,8 +18,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FirstTest extends WebDriverSettings {
 
     @Test
-    @DisplayName("Log in the account")
-    @Description("Check that logging in is correct with correct password and username")
+    //@DisplayName("Log in the account")
+    //@Description("Check that logging in is correct with correct password and username")
     public void firstTest() {
         WebDriverWait wait = new WebDriverWait(driver, 8);
 

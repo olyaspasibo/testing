@@ -115,8 +115,11 @@ public class ThirdTest extends WebDriverSettings {
             a -= price;
         }
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//b[contains(text(),'бесплатную доставку')]")));
-        String freeDelivery = driver.findElement(By.cssSelector("._3yDgi6ylNe>span")).getAttribute("textContent");
-        assertEquals(freeDelivery, "Поздравляем! Вы получили бесплатную доставку на ваш заказ");
+        WebElement freeDeliveryText = driver.findElement(By.cssSelector("b.voCFmXKfcL"));
+        assertEquals(freeDeliveryText.getAttribute("textContent"), "бесплатную доставку");
+        //assertTrue(driver.findElement(By.xpath("//b[contains(text(),'бесплатную доставку')]")));
+        //String freeDelivery = driver.findElement(By.cssSelector("._3yDgi6ylNe>span")).getAttribute("textContent");
+        //assertEquals(freeDelivery, "Поздравляем! Вы получили бесплатную доставку на ваш заказ");
 
 
     }

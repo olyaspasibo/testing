@@ -3,12 +3,13 @@ package ru.beru;
 
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
@@ -20,8 +21,8 @@ public class WebDriverSettings  {
 
     //public JavascriptExecutor js;
 
-    @BeforeEach
-    public void setUp() throws IOException {
+    @BeforeTest
+    public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
@@ -38,7 +39,7 @@ public class WebDriverSettings  {
     }
 
 
-    @AfterEach
+    @AfterTest
     public void close() {
         //driver.quit();
     }
@@ -54,7 +55,7 @@ public class WebDriverSettings  {
         FileUtils.copyFile(scrFile, targetFile);
         }
         catch(IOException e) {
-            System.out.println("f");
+            //System.out.println("f");
             e.printStackTrace();
         }
     }
