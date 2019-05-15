@@ -42,7 +42,7 @@ public class WebDriverSettings  {
     @AfterMethod
     public void close() {
 
-        driver.quit();
+        //driver.quit();
     }
 
 
