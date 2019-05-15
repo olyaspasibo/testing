@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import page_object_classes.PageObject;
 import settings.WebDriverSettings;
 
-
 public class FirstTest extends WebDriverSettings {
 
     @Test

@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b229c7f-4ed7-4170-bc23-ce0eef0abe6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/first_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page_object_classes/BaseCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page_object_classes/BaseCatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page_object_classes/PageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page_object_classes/PageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings/CustomTestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings/CustomTestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings/TakeScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings/TakeScreenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/SecondTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/ThirdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/ThirdTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -48,8 +46,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="117">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,18 +80,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-586">
+            <state relative-caret-position="90">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="270">
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="60">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,16 +168,16 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/PageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/.idea/first_project.iml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/BaseCatalogPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -197,17 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="first_project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="first_project" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +280,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="first_project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="first_project" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -322,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SecondTest">
+  <component name="RunManager" selected="TestNG.FirstTest">
     <configuration name="ThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
@@ -409,9 +410,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SecondTest" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.ThirdTest" />
+        <item itemvalue="TestNG.SecondTest" />
         <item itemvalue="TestNG.ThirdTest.searchInCart" />
         <item itemvalue="JUnit.ThirdTest" />
       </list>
@@ -431,24 +432,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondTest - 2019.05.11 at 19h 07m 28s.xml">
-      <configuration name="SecondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.05.11 at 19h 08m 32s.xml">
-      <configuration name="SecondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.05.11 at 19h 46m 28s.xml">
-      <configuration name="SecondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.05.12 at 00h 25m 35s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.05.12 at 00h 27m 57s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2019.05.12 at 00h 30m 33s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest - 2019.05.12 at 00h 45m 01s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
@@ -460,6 +443,24 @@
     </history-entry>
     <history-entry file="SecondTest - 2019.05.12 at 00h 55m 53s.xml">
       <configuration name="SecondTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2019.05.15 at 21h 58m 17s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2019.05.15 at 21h 59m 54s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ThirdTest - 2019.05.15 at 22h 03m 38s.xml">
+      <configuration name="ThirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ThirdTest - 2019.05.15 at 22h 05m 22s.xml">
+      <configuration name="ThirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ThirdTest - 2019.05.15 at 22h 05m 51s.xml">
+      <configuration name="ThirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2019.05.15 at 22h 06m 22s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -473,8 +474,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.48142165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.48949918" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2536349" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,15 +485,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.5020408" side_tool="true" weight="0.30048466" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.37802908" weight="0.32673267" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.37641358" visible="true" weight="0.32659933" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4983845" weight="0.3989899" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.3281471" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.42649436" visible="true" weight="0.27104378" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.57350564" side_tool="true" visible="true" weight="0.27104378" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.37075928" weight="0.32659933" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4256866" weight="0.27104378" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6235864" side_tool="true" visible="true" weight="0.32659933" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.32828283" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.36833602" weight="0.32659933" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,20 +560,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -588,61 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="117">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -651,8 +626,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="220">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

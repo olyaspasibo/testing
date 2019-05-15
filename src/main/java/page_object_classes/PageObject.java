@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 public class PageObject {
     public static WebDriver driver;
-    public WebDriverWait wait;
+    public static WebDriverWait wait;
     private By headerButton = By.className("header2-nav__user");
     private By inputUsernameField = By.id("passp-field-login");
     private By logInButton = By.xpath("//button[@class=\"control button2 button2_view_classic button2_size_l " +
