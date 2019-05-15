@@ -4,11 +4,11 @@ import io.qameta.allure.Description;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import page_object_classes.PageObject;
+import page_object_classes.StartPage;
 import settings.WebDriverSettings;
 
 
-public class SecondTest extends WebDriverSettings {
+public class ChangeCityTest extends WebDriverSettings {
 
 
     @DataProvider(name = "SetUpCity")
@@ -27,7 +27,7 @@ public class SecondTest extends WebDriverSettings {
     @Test(dataProvider = "SetUpCity")
     @Description("Check the city is applied to the personal page")
     public void changeCity(String city_test) {
-        PageObject pageObject = new PageObject(driver, wait);
+        StartPage pageObject = new StartPage(driver, wait);
         pageObject.changeProperty_CityName(city_test);
 
 

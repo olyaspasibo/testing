@@ -20,7 +20,8 @@ public class BaseCatalogPage {
     private By addToTheCartButton = By.className("header2-nav-item__icon_type_cart");
     private By item_price = By.cssSelector("span._1JLs4_hnVR>span:first-child");
     private By addItemButton = By.cssSelector("button._4qhIn2-ESi._2sJs248D-A._18c2gUxCdP._3hWhO4rvmA");
-
+    private By freeDeliveryText = By.cssSelector("b.voCFmXKfcL");
+    private By brushes = By.xpath("//div[@data-zone-name='cartButton']//button");
 
     public BaseCatalogPage (WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -64,7 +65,7 @@ public class BaseCatalogPage {
     }
     @Step("Add penultimate item into cart and go to the cart")
     public void addPenultimateItemToCartAndGoToTheCart(){
-        List <WebElement> toothbrushesList = driver.findElements(By.xpath("//div[@data-zone-name='cartButton']//button"));
+        List <WebElement> toothbrushesList = driver.findElements(brushes);
         WebElement penultimateToothbrush = toothbrushesList.get(toothbrushesList.size() - 2);
         //takeScreenShot(penultimateToothbrush);
         penultimateToothbrush.click();
@@ -103,8 +104,7 @@ public class BaseCatalogPage {
         }
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//b[contains(text(),'бесплатную доставку')]")));
-        WebElement freeDeliveryText = driver.findElement(By.cssSelector("b.voCFmXKfcL"));
-        Assert.assertEquals(freeDeliveryText.getAttribute("textContent"), "бесплатную доставку");
+        Assert.assertEquals(driver.findElement(freeDeliveryText).getAttribute("textContent"), "бесплатную доставку");
     }
 
 

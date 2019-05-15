@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class PageObject {
+public class StartPage {
     public static WebDriver driver;
     public static WebDriverWait wait;
     private By headerButton = By.className("header2-nav__user");
@@ -35,7 +35,7 @@ public class PageObject {
     private By profileeItem = By.cssSelector("span.header2-nav-item__icon_type_profile");
     private By logOutButton = By.cssSelector("a.header2-user-menu__logout");
 
-    public PageObject(WebDriver driver, WebDriverWait wait) {
+    public StartPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
     }
@@ -87,7 +87,7 @@ public class PageObject {
         this.sendKeysTo(driver.findElement(city), city_test);
 
 
-        //Choose "Хвалынск" in the city recommendations' list
+        //Choose expected city in the city recommendations' list
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
                         "suggest2-item_type_text\"]")));
@@ -96,9 +96,6 @@ public class PageObject {
 
         //takeScreenShot(continueWithNewRegionButton);
         driver.findElement(continueWithNewRegionButton).click();
-        // TODO: write one correct css selector for wait
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("header-search")));
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("span.region-form-opener>span>span")));
         driver.navigate().refresh();
 
 

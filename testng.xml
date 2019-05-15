@@ -2,9 +2,9 @@
 
     <test name="testngTest">
         <classes>
-            <class name="ru.beru.FirstTest"/>
-            <class name="ru.beru.SecondTest"/>
-            <class name="ru.beru.ThirdTest"/>
+            <class name="ru.beru.LogInTest"/>
+            <class name="ru.beru.ChangeCityTest"/>
+            <class name="ru.beru.BuyToothbrushTest"/>
 
         </classes>
     </test>

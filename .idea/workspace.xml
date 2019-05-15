@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b229c7f-4ed7-4170-bc23-ce0eef0abe6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="113" column="29" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="29" />
+            <state relative-caret-position="139">
+              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -35,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="644">
+              <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            <state relative-caret-position="1335">
+              <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +64,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -71,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="510">
               <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,16 +90,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="240">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,10 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
+              <caret line="19" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,15 +166,16 @@
         <option value="$PROJECT_DIR$/.idea/first_project.iml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/BaseCatalogPage.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/TakeScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/CustomTestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java" />
       </list>
     </option>
   </component>
@@ -178,17 +186,27 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="342" />
-    <option name="y" value="435" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="709" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="first_project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="first_project" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,14 +249,6 @@
               <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="first_project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,18 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="first_project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="first_project" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,6 +293,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -314,8 +315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest">
-    <configuration name="ThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LogInTest">
+    <configuration name="BuyToothbrushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -324,13 +325,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.beru" />
-      <option name="MAIN_CLASS_NAME" value="ru.beru.ThirdTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.beru.BuyToothbrushTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BuyToothbrushTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -339,7 +340,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.beru" />
-      <option name="MAIN_CLASS_NAME" value="ru.beru.FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.beru.BuyToothbrushTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -347,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BuyToothbrushTest.searchInCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -356,41 +357,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.beru" />
-      <option name="MAIN_CLASS_NAME" value="ru.beru.SecondTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.beru" />
-      <option name="MAIN_CLASS_NAME" value="ru.beru.ThirdTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdTest.searchInCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.beru" />
-      <option name="MAIN_CLASS_NAME" value="ru.beru.ThirdTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.beru.BuyToothbrushTest" />
       <option name="METHOD_NAME" value="searchInCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -399,13 +366,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChangeCityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.beru" />
+      <option name="MAIN_CLASS_NAME" value="ru.beru.ChangeCityTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.beru" />
+      <option name="MAIN_CLASS_NAME" value="ru.beru.LogInTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.ThirdTest" />
-        <item itemvalue="TestNG.SecondTest" />
-        <item itemvalue="TestNG.ThirdTest.searchInCart" />
-        <item itemvalue="JUnit.ThirdTest" />
+        <item itemvalue="TestNG.LogInTest" />
+        <item itemvalue="TestNG.BuyToothbrushTest" />
+        <item itemvalue="TestNG.ChangeCityTest" />
+        <item itemvalue="TestNG.BuyToothbrushTest.searchInCart" />
+        <item itemvalue="JUnit.BuyToothbrushTest" />
       </list>
     </recent_temporary>
   </component>
@@ -464,10 +465,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.48949918" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.30775446" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2536349" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,14 +475,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5020408" side_tool="true" weight="0.30048466" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.37560582" visible="true" weight="0.32659933" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919224" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.37560582" weight="0.32659933" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4983845" weight="0.3989899" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.3281471" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.42487884" weight="0.27104378" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6243942" side_tool="true" visible="true" weight="0.32659933" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.42245558" visible="true" weight="0.22772278" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.57754445" side_tool="true" visible="true" weight="0.22772278" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.32828283" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.36833602" weight="0.32659933" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -558,10 +558,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,40 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/SecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ThirdTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
+          <caret line="19" selection-start-line="18" selection-start-column="6" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,22 +610,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="113" column="29" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="29" />
+        <state relative-caret-position="139">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
