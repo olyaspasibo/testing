@@ -1,4 +1,4 @@
-package java;
+package page_object_classes;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -8,11 +8,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import static org.testng.Assert.assertEquals;
-
 public class PageObject {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    public static WebDriver driver;
+    public WebDriverWait wait;
     private By headerButton = By.className("header2-nav__user");
     private By inputUsernameField = By.id("passp-field-login");
     private By logInButton = By.xpath("//button[@class=\"control button2 button2_view_classic button2_size_l " +
@@ -26,7 +24,7 @@ public class PageObject {
     private By city = By.xpath("//input[@class=\"input__control\"]");
 
     private By newCity = By.xpath("//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
-            "suggest2-item_type_text\"][.//strong[contains(text(), 'Хвалынск')]]");
+            "suggest2-item_type_text\"][.//strong]");
     private By continueWithNewRegionButton = By.xpath("//button[@type=\"submit\"]" +
             "[.//span[contains(text(), 'Продолжить с новым регионом')]]");
     private  By cityField = By.cssSelector("span.region-form-opener>span>span");

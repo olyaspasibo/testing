@@ -1,4 +1,4 @@
-package java;
+package page_object_classes;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -10,10 +10,9 @@ import org.testng.Assert;
 
 import java.util.List;
 
-
 public class BaseCatalogPage {
     private WebDriver driver;
-    private WebDriverWait wait;
+    public WebDriverWait wait;
     private By inputPriceTextbox = By.xpath("//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]");
     private By outputPriceTextbox = By.xpath("//input[@class=\"_2yK7W3SWQ- _1f2usTwyAs\"]");
     private By showMoreItems = By.cssSelector("div.n-pager-more__button>a");

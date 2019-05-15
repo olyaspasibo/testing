@@ -2,44 +2,26 @@ package ru.beru;
 
 
 import io.qameta.allure.Description;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.runners.Parameterized;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-import org.testng.annotations.TestInstance;
 
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import page_object_classes.PageObject;
+import settings.WebDriverSettings;
 
 
 public class FirstTest extends WebDriverSettings {
 
     @Test
-    //@DisplayName("Log in the account")
-    //@Description("Check that logging in is correct with correct password and username")
+    @Description("Check that logging in is correct with correct password and username")
     public void firstTest() {
-        WebDriverWait wait = new WebDriverWait(driver, 8);
 
+        PageObject pageObject = new PageObject(driver, wait);
         //Authorize in the website
-        logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
+        pageObject.logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
         //Go to personal account
-        WebElement headerItem = driver.findElement(By.className("header2__nav"));
-        takeScreenShot(headerItem);
-        headerItem.click();
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class=\"header2__nav\"]" +
-                "[.//span[@class=\"header2-nav-item__text\"]]")));
-
-        WebElement profileItem = driver.findElement(By.xpath("//div[@class='header2-nav__user']//span[@title]"));
-
-        profileItem.getAttribute("title");
-
-        // Check that profile attribute was changed to "My profile"
-        assertEquals(profileItem.getAttribute("title"), "Мой профиль");
+        //takeScreenShot(headerItem);
+        pageObject.checkMyProfileTitle("Мой профиль");
+        pageObject.logOut();
 
     }
 }

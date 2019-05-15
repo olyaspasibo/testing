@@ -1,0 +1,11 @@
+<suite name="beru.ru">
+
+    <test name="testngTest">
+        <classes>
+            <class name="ru.beru.FirstTest"/>
+            <class name="ru.beru.SecondTest"/>
+            <class name="ru.beru.ThirdTest"/>
+
+        </classes>
+    </test>
+</suite>

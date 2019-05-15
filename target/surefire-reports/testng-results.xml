@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-15T17:31:16Z" name="Surefire suite" finished-at="2019-05-15T17:33:25Z" duration-ms="128273">
+    <groups>
+    </groups>
+    <test started-at="2019-05-15T17:31:16Z" name="Surefire test" finished-at="2019-05-15T17:33:25Z" duration-ms="128273">
+      <class name="ru.beru.SecondTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:31:38Z" name="setUp" finished-at="2019-05-15T17:31:45Z" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeCity(java.lang.String)[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:31:45Z" name="changeCity" data-provider="SetUpCity" finished-at="2019-05-15T17:31:59Z" duration-ms="14474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Хвалынск]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCity -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:31:59Z" name="close" finished-at="2019-05-15T17:31:59Z" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:31:59Z" name="setUp" finished-at="2019-05-15T17:32:07Z" duration-ms="7132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeCity(java.lang.String)[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:07Z" name="changeCity" data-provider="SetUpCity" finished-at="2019-05-15T17:32:20Z" duration-ms="13193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Самара]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCity -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:20Z" name="close" finished-at="2019-05-15T17:32:20Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:20Z" name="setUp" finished-at="2019-05-15T17:32:27Z" duration-ms="6921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeCity(java.lang.String)[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:27Z" name="changeCity" data-provider="SetUpCity" finished-at="2019-05-15T17:32:45Z" duration-ms="17698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ялта]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCity -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:45Z" name="close" finished-at="2019-05-15T17:32:45Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:45Z" name="setUp" finished-at="2019-05-15T17:32:52Z" duration-ms="7048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeCity(java.lang.String)[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:32:52Z" name="changeCity" data-provider="SetUpCity" finished-at="2019-05-15T17:33:05Z" duration-ms="13253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Урус-Мартан]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCity -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.SecondTest@3543df7d]" started-at="2019-05-15T17:33:05Z" name="close" finished-at="2019-05-15T17:33:05Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ru.beru.SecondTest -->
+      <class name="ru.beru.ThirdTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.ThirdTest@7c541c15]" started-at="2019-05-15T17:33:05Z" name="setUp" finished-at="2019-05-15T17:33:12Z" duration-ms="6532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchInCart()[pri:0, instance:ru.beru.ThirdTest@7c541c15]" started-at="2019-05-15T17:33:12Z" name="searchInCart" finished-at="2019-05-15T17:33:25Z" duration-ms="12747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.ThirdTest@7c541c15]" started-at="2019-05-15T17:33:25Z" name="close" finished-at="2019-05-15T17:33:25Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ru.beru.ThirdTest -->
+      <class name="ru.beru.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.beru.FirstTest@66b7550d]" started-at="2019-05-15T17:31:17Z" name="setUp" finished-at="2019-05-15T17:31:27Z" duration-ms="10745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstTest()[pri:0, instance:ru.beru.FirstTest@66b7550d]" started-at="2019-05-15T17:31:27Z" name="firstTest" finished-at="2019-05-15T17:31:37Z" duration-ms="9956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ru.beru.FirstTest@66b7550d]" started-at="2019-05-15T17:31:37Z" name="close" finished-at="2019-05-15T17:31:38Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ru.beru.FirstTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
