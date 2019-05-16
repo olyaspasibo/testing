@@ -32,8 +32,6 @@ public class StartPage {
     private By cityFieldInProfile = By.xpath("//h2[@class=\"n-headline__content title title_size_20\"]" +
             "[.//span[@class=\"link__inner\"]]");
     private By headerItem = By.className("header2__nav");
-    private By profileeItem = By.cssSelector("span.header2-nav-item__icon_type_profile");
-    private By logOutButton = By.cssSelector("a.header2-user-menu__logout");
 
     public StartPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -59,18 +57,17 @@ public class StartPage {
     @Step("Loging in")
     public void logIn(String email, String password){
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("header2-user")));
-        //takeScreenShot(headerButton);
+
         driver.findElement(headerButton).click();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(inputUsernameField)));
-        //takeScreenShot(inputUsernameField);
+
         driver.findElement(inputUsernameField).sendKeys(email);
-        //takeScreenShot(logInButton);
+
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("passp-field-passwd")));
-        //takeScreenShot(inputPasswordField);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(inputPasswordField)));
+
         this.sendKeysTo(driver.findElement(inputPasswordField), password);
-        //takeScreenShot(loginButton);
+
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("header2-nav__user")));
 
@@ -78,11 +75,9 @@ public class StartPage {
 
     @Step("Change city-name property")
     public void changeProperty_CityName(String city_test) {
-        //takeScreenShot(itemRegion);
         driver.findElement(itemRegion).click();
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//input[@class=\"input__control\"]")));
-        //takeScreenShot(city);
 
         this.sendKeysTo(driver.findElement(city), city_test);
 
@@ -91,10 +86,9 @@ public class StartPage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
                         "suggest2-item_type_text\"]")));
-        //takeScreenShot(newCity);
+
         driver.findElement(newCity).click();
 
-        //takeScreenShot(continueWithNewRegionButton);
         driver.findElement(continueWithNewRegionButton).click();
         driver.navigate().refresh();
 
@@ -103,29 +97,17 @@ public class StartPage {
 
     @Step("Go to Personal account")
     public void goToPersonalAccount(){
-        //takeScreenShot(headerItem);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(headerItem)));
         driver.findElement(headerItem).click();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[@href=\"/my/settings?track=menu\"]")));
-        //takeScreenShot(personProfileItem);
         driver.findElement(personProfileItem).click();
     }
 
     @Step("Check city-name property")
     public void checkCityValue(String city_test) {
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("personal")));
         WebElement i = driver.findElement(By.className("link_pseudo_yes"));
         Assert.assertTrue(i.getText().contains(city_test));
-        //Assert.assertTrue(driver.findElement(cityFieldInProfile).getText().contains(city_test));
     }
 
-    @Step("Logging out")
-    public void logOut(){
-        driver.findElement(profileeItem).click();
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("a.header2-user-menu__logout")));
-        driver.findElement(logOutButton).click();
 
-
-
-    }
 }

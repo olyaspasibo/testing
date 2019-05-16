@@ -5,6 +5,7 @@ import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -17,11 +18,11 @@ import java.util.UUID;
 
 public class WebDriverSettings  {
 
-    public ChromeDriver driver;
-    public WebDriverWait wait;
+    public static EventFiringWebDriver driver;
+    public static WebDriverWait wait;
 
     private By profileeItem = By.cssSelector("span.header2-nav-item__icon_type_profile");
-    private By logOutButton = By.cssSelector("a.header2-user-menu__logout");
+    private By logOutButton = By.cssSelector("li.header2-user-menu__item_type_logout");
 
     //public JavascriptExecutor js;
 
@@ -29,13 +30,11 @@ public class WebDriverSettings  {
     public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", "chromedriver");
-        driver = new ChromeDriver();
+        driver = new EventFiringWebDriver(new ChromeDriver());
         driver.get("https://beru.ru");
         wait = new WebDriverWait(driver, 8);
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("_1ZYDKa22GJ")));
-        //WebElement x = driver.findElement(By.xpath("//button[.//span]"));
-        //takeScreenShot(x);
-        //x.click();
+        CustomListener listener = new CustomListener();
+        driver.register(listener);
         WebElement but = driver.findElement(By.xpath(
                 "//button[@class='_255V0g8dHJ _4qhIn2-ESi _3OWdR9kZRH C2YoejBGGj'][.//span[contains(text(), 'Нет, спасибо')]]"));
         takeScreenShot(but);
@@ -46,14 +45,14 @@ public class WebDriverSettings  {
     @AfterMethod
     public void close() {
         logOut();
-
-        //driver.quit();
+        driver.quit();
     }
 
     @Attachment
     public void logOut(){
         driver.findElement(profileeItem).click();
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("a.header2-user-menu__logout")));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath
+                ("//a[@href=\"/my/settings?track=menu\"]")));
         driver.findElement(logOutButton).click();
 
 
@@ -80,21 +79,6 @@ public class WebDriverSettings  {
         js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
 
     }
-
-
-//
-
-//    @Attachment
-//    public void takeScreenShot1(WebElement element) throws IOException {
-//        File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//        Point p = element.getLocation();
-//        Dimension dimesions = element.getSize();
-//        Rectangle rect = new Rectangle(0, 0, dimesions.getWidth(), dimesions.getHeight());
-//        BufferedImage img = ImageIO.read(screen);
-//        BufferedImage dest = img.getSubimage(p.getX(), p.getY(), rect.width, rect.height);
-//        ImageIO.write(dest, "png", screen);
-//        FileUtils.copyFile(screen, new File("screenshot" + System.nanoTime() + ".png"));
-//    }
 
 
 }

@@ -1,3 +1,5 @@
 settings/WebDriverSettings.class
+settings/TestListener.class
 page_object_classes/BaseCatalogPage.class
+settings/CustomListener.class
 page_object_classes/StartPage.class

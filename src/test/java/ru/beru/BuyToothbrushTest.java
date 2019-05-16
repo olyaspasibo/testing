@@ -19,7 +19,7 @@ public class BuyToothbrushTest extends WebDriverSettings {
 
         baseCatalogPage.logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
-        driver.get("https://beru.ru/catalog/elektricheskie-zubnye-shchetki/79832/list?hid=278374&track=fr_ctlg");
+        baseCatalogPage.goToElectricBrushesCatalog();
 
 
         baseCatalogPage.setUpPriceRange("999", "1999");

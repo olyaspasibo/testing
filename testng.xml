@@ -5,7 +5,6 @@
             <class name="ru.beru.LogInTest"/>
             <class name="ru.beru.ChangeCityTest"/>
             <class name="ru.beru.BuyToothbrushTest"/>
-
         </classes>
     </test>
 </suite>

@@ -13,12 +13,13 @@ public class ChangeCityTest extends WebDriverSettings {
 
     @DataProvider(name = "SetUpCity")
 
-    public static Object[][] citySetUp() {
+    public static Object[][] citySetUp()
+    {
 
         return new Object[][] {
-                //{"Хвалынск"},
-               // {"Самара"},
-                //{"Ялта"},
+                {"Хвалынск"},
+                {"Самара"},
+                {"Ялта"},
                 {"Урус-Мартан"}};
 
     }
