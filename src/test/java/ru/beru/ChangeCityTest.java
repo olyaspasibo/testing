@@ -16,9 +16,9 @@ public class ChangeCityTest extends WebDriverSettings {
     public static Object[][] citySetUp() {
 
         return new Object[][] {
-                {"Хвалынск"},
-                {"Самара"},
-                {"Ялта"},
+                //{"Хвалынск"},
+               // {"Самара"},
+                //{"Ялта"},
                 {"Урус-Мартан"}};
 
     }
@@ -30,21 +30,13 @@ public class ChangeCityTest extends WebDriverSettings {
         StartPage pageObject = new StartPage(driver, wait);
         pageObject.changeProperty_CityName(city_test);
 
-
         pageObject.checkCityValue(city_test);
-
 
         pageObject.logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
-
-        // Go to personal account
         pageObject.goToPersonalAccount();
 
         pageObject.checkCityValue(city_test);
-
-        //Check the city field was changed here
-
-        pageObject.logOut();
 
     }
 

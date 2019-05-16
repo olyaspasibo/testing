@@ -5,6 +5,7 @@ import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +19,9 @@ public class WebDriverSettings  {
 
     public ChromeDriver driver;
     public WebDriverWait wait;
+
+    private By profileeItem = By.cssSelector("span.header2-nav-item__icon_type_profile");
+    private By logOutButton = By.cssSelector("a.header2-user-menu__logout");
 
     //public JavascriptExecutor js;
 
@@ -41,10 +45,20 @@ public class WebDriverSettings  {
 
     @AfterMethod
     public void close() {
+        logOut();
 
         //driver.quit();
     }
 
+    @Attachment
+    public void logOut(){
+        driver.findElement(profileeItem).click();
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("a.header2-user-menu__logout")));
+        driver.findElement(logOutButton).click();
+
+
+
+    }
 
     @Attachment
     public void takeScreenShot(WebElement element) {

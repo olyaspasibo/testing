@@ -1,5 +1,3 @@
-settings/TakeScreenshot.class
-settings/CustomTestListener.class
 settings/WebDriverSettings.class
 page_object_classes/BaseCatalogPage.class
 page_object_classes/StartPage.class

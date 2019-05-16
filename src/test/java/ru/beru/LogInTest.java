@@ -14,13 +14,11 @@ public class LogInTest extends WebDriverSettings {
     public void firstTest() {
 
         StartPage pageObject = new StartPage(driver, wait);
-        //Authorize in the website
+
         pageObject.logIn("o.spasibo2016", "wegtov-gezwa3-gasfeN");
 
         //Go to personal account
         //takeScreenShot(headerItem);
         pageObject.checkMyProfileTitle("Мой профиль");
-        pageObject.logOut();
-
     }
 }

@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 public class StartPage {
     public static WebDriver driver;
-    public static WebDriverWait wait;
+    private WebDriverWait wait;
     private By headerButton = By.className("header2-nav__user");
     private By inputUsernameField = By.id("passp-field-login");
     private By logInButton = By.xpath("//button[@class=\"control button2 button2_view_classic button2_size_l " +
@@ -118,6 +118,7 @@ public class StartPage {
         Assert.assertTrue(i.getText().contains(city_test));
         //Assert.assertTrue(driver.findElement(cityFieldInProfile).getText().contains(city_test));
     }
+
     @Step("Logging out")
     public void logOut(){
         driver.findElement(profileeItem).click();
