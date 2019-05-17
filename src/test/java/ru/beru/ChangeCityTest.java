@@ -17,9 +17,9 @@ public class ChangeCityTest extends WebDriverSettings {
     {
 
         return new Object[][] {
-                {"Хвалынск"},
-                {"Самара"},
-                {"Ялта"},
+                //{"Хвалынск"},
+                //{"Самара"},
+                //{"Ялта"},
                 {"Урус-Мартан"}};
 
     }

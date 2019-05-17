@@ -10,6 +10,13 @@
           <include name="close"/>
         </methods>
       </class> <!-- ru.beru.BuyToothbrushTest -->
+      <class name="ru.beru.ChangeCityTest">
+        <methods>
+          <include name="changeCity" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ru.beru.ChangeCityTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

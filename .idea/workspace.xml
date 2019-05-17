@@ -2,151 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b229c7f-4ed7-4170-bc23-ce0eef0abe6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/settings/CustomListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/settings/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/01edf4fe-aac8-4884-a07f-3786bd43e592-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0d9a395d-fb42-42ed-ab7b-263a08153f64-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0ec59bf3-4ee0-41f4-93c2-17fcab90a2e4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/19120544-e200-443d-b969-9bf323c5401b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1bbe529d-e7d3-4c4b-86cb-84a9837f5d1b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1dbd92c0-924b-4291-b057-cd2e29331194-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/20217625-a3b1-4923-964f-b67dea355159-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/29e3f85d-fa2d-48f4-a995-851bb43902dc-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2bdb2f3a-b5ed-4912-bda3-be896fa24e74-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2bfa7085-e2d6-4e39-8211-4867282103a9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/33ed3e94-436d-45c8-9497-a3338221dd31-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/376373d8-0ab8-4f89-8b90-9ecc44961877-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/39cdafd6-3820-4231-944f-a7a80d184577-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3c3eb7e4-5d20-4897-a0d8-c9604fefe217-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3e004244-53e1-475c-992a-3fc383034697-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/43c0b722-5f30-4b0e-b590-042a899144c7-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4d6c2481-31cb-477a-8d14-4a10462942a1-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/519b6e38-c2cd-4122-b852-9b585952a141-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/530135a6-405a-41c1-9074-3f189b33aa93-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/53179a4b-55fe-4a6e-b48b-af796763be6f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5323b629-85d7-47c8-8ab1-eb1216411f65-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/59d6d461-ce85-46ba-932a-852efc809d44-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/604c810d-e892-4d85-a80e-af631c76c5b5-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/609353a2-ce3f-4614-b931-64e1d2379909-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6a9585b6-b8eb-4cda-8cba-2ef911a9eda4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/720a279f-8c91-4c21-ad1b-b41e4cae58d2-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/72239950-9add-466a-8ca5-9aef59b70e95-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/741a5783-5437-4570-b38f-76cff121453c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/74e1cea2-143a-49cd-aec6-c435ab16a6ac-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/79544be3-be6a-4e15-a4cf-cb6e6c684368-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8047fe3c-0658-4ab0-b066-d18123be2e2f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/840a6b51-b930-4506-a403-ca66aca8a204-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/89c24878-5f07-4e65-af7a-4f132640f551-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/957b6800-4715-435c-af83-7a689a1b5224-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a0973db5-dbc6-4bcb-8948-9cf52ac5f131-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a122594f-97d6-409c-abb9-78ea76b716d5-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a8beb768-6e65-4570-ab25-55b32049aa3c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/abd18640-acbb-48f8-965b-867c35f3a893-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ac784ab5-ae64-498d-9e7a-0bb01e3c6c13-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/af287daa-37a6-4cb2-9f3f-057037352758-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b288b262-e709-48ec-9e83-0a1dc9c83626-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b295b486-5a42-496e-b40f-4a6d0a8620a4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b8205012-ad68-44f3-b257-a9564b0d4c47-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c09cad81-4730-4ad1-a3e0-33538f41d450-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d4b1f61b-2807-42fb-882d-047c45905655-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/da154e32-0c63-4e79-bca5-7c45b79c50e9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ddd5b115-e50c-47e5-b4ac-635c88b1c938-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/de0ccba6-bd45-485c-9b9a-305775437c74-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/df20c424-0ee9-4875-8141-166c7a8f5a29-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e68bf007-d43e-4839-89ed-3a9021ba5817-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e81f3044-d1bb-49cf-9ad5-29a078616c5e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f3802f9e-2893-47dc-a5e9-2f9db6698a15-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f8ca8b39-066f-4b0b-ba23-d0d4efd5f86d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fb50c544-7710-474a-b1a2-6de5eaef3a76-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fba388fd-bd6c-410a-92ab-ca47d314ce0a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fd89e6b4-9f47-42f0-8e4c-817295bffe29-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugReport.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page_object_classes/BaseCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page_object_classes/BaseCatalogPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page_object_classes/StartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page_object_classes/StartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/first_project-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ru.beru.BuyToothbrushTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ru.beru.ChangeCityTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ru.beru.LogInTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/BuyToothbrushTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/BuyToothbrushTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/ChangeCityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/ChangeCityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/beru/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/beru/LogInTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -193,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="458">
               <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -207,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-681">
+            <state relative-caret-position="158">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
@@ -234,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="334">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -243,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="155">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -252,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="64">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -306,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/main/java/settings/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java" />
       </list>
     </option>
   </component>
@@ -319,9 +176,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="384" />
+    <option name="y" value="77" />
+    <option name="width" value="1250" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -610,7 +469,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.22940226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.22940226" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2536349" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -624,7 +483,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49757674" weight="0.3281471" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.41599354" visible="true" weight="0.22772278" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.41599354" visible="true" weight="0.22772278" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5840065" side_tool="true" visible="true" weight="0.22772278" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4434572" weight="0.3281471" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3634895" weight="0.32531825" />
@@ -757,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -771,20 +623,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="458">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -800,25 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/settings/CustomListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-681">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/StartPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1477">
@@ -826,10 +654,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/page_object_classes/BaseCatalogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/LogInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/BuyToothbrushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/beru/ChangeCityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="334">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
