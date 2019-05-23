@@ -19,18 +19,13 @@ public class StartPage {
             "[.//span[contains(text(), 'Войти')]]");
     private By inputPasswordField = By.id("passp-field-passwd");
     private By profileItem = By.xpath("//div[@class='header2-nav__user']//span[@title]");
-
     private By itemRegion = By.xpath("//span[contains(text(), 'Регион')]/span");
     private By city = By.xpath("//input[@class=\"input__control\"]");
-
     private By newCity = By.xpath("//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
             "suggest2-item_type_text\"][.//strong]");
     private By continueWithNewRegionButton = By.xpath("//button[@type=\"submit\"]" +
             "[.//span[contains(text(), 'Продолжить с новым регионом')]]");
-    private  By cityField = By.cssSelector("span.region-form-opener>span>span");
     private  By personProfileItem = By.xpath("//a[@href=\"/my/settings?track=menu\"]");
-    private By cityFieldInProfile = By.xpath("//h2[@class=\"n-headline__content title title_size_20\"]" +
-            "[.//span[@class=\"link__inner\"]]");
     private By headerItem = By.className("header2__nav");
 
     public StartPage(WebDriver driver, WebDriverWait wait) {
@@ -46,10 +41,8 @@ public class StartPage {
 
     @Step("Check profile title")
     public void checkMyProfileTitle(String profileName) {
-
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(headerButton)));
-       driver.findElement(headerButton).click();
-
+        driver.findElement(headerButton).click();
         // Check that profile attribute was changed to "My profile"
         Assert.assertEquals( driver.findElement(profileItem).getAttribute("title"), profileName);
     }
@@ -57,49 +50,36 @@ public class StartPage {
     @Step("Loging in")
     public void logIn(String email, String password){
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("header2-user")));
-
         driver.findElement(headerButton).click();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(inputUsernameField)));
-
         driver.findElement(inputUsernameField).sendKeys(email);
-
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("passp-field-passwd")));
-
         this.sendKeysTo(driver.findElement(inputPasswordField), password);
-
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("header2-nav__user")));
-
     }
 
     @Step("Change city-name property")
-    public void changeProperty_CityName(String city_test) {
+    public void changeProperty_CityName(String cityTest) {
         driver.findElement(itemRegion).click();
-
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//input[@class=\"input__control\"]")));
-
-        this.sendKeysTo(driver.findElement(city), city_test);
-
-
+        this.sendKeysTo(driver.findElement(city), cityTest);
         //Choose expected city in the city recommendations' list
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//div[@class=\"region-suggest__list-item suggestick-list__item suggest2-item " +
                         "suggest2-item_type_text\"]")));
-
         driver.findElement(newCity).click();
-
         driver.findElement(continueWithNewRegionButton).click();
         driver.navigate().refresh();
-
-
     }
 
     @Step("Go to Personal account")
     public void goToPersonalAccount(){
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(headerItem)));
         driver.findElement(headerItem).click();
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[@href=\"/my/settings?track=menu\"]")));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath
+                ("//a[@href=\"/my/settings?track=menu\"]")));
         driver.findElement(personProfileItem).click();
     }
 
@@ -108,6 +88,5 @@ public class StartPage {
         WebElement i = driver.findElement(By.className("link_pseudo_yes"));
         Assert.assertTrue(i.getText().contains(city_test));
     }
-
 
 }

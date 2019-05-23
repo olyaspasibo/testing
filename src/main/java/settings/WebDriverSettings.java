@@ -20,11 +20,8 @@ public class WebDriverSettings  {
 
     public static EventFiringWebDriver driver;
     public static WebDriverWait wait;
-
     private By profileeItem = By.cssSelector("span.header2-nav-item__icon_type_profile");
     private By logOutButton = By.cssSelector("li.header2-user-menu__item_type_logout");
-
-    //public JavascriptExecutor js;
 
     @BeforeMethod
     public void setUp() {
@@ -36,11 +33,11 @@ public class WebDriverSettings  {
         CustomListener listener = new CustomListener();
         driver.register(listener);
         WebElement but = driver.findElement(By.xpath(
-                "//button[@class='_255V0g8dHJ _4qhIn2-ESi _3OWdR9kZRH C2YoejBGGj'][.//span[contains(text(), 'Нет, спасибо')]]"));
+                "//button[@class='_255V0g8dHJ _4qhIn2-ESi _3OWdR9kZRH C2YoejBGGj'][.//span[contains(text(), " +
+                        "'Нет, спасибо')]]"));
         takeScreenShot(but);
         but.click();
     }
-
 
     @AfterMethod
     public void close() {
@@ -54,9 +51,6 @@ public class WebDriverSettings  {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath
                 ("//a[@href=\"/my/settings?track=menu\"]")));
         driver.findElement(logOutButton).click();
-
-
-
     }
 
     @Attachment
@@ -69,16 +63,14 @@ public class WebDriverSettings  {
         FileUtils.copyFile(scrFile, targetFile);
         }
         catch(IOException e) {
-            //System.out.println("f");
             e.printStackTrace();
         }
     }
+
     @Attachment
     private void highLight(WebElement element) {
         JavascriptExecutor js = driver;
         js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
-
     }
-
 
 }

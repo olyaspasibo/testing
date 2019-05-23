@@ -22,7 +22,6 @@ public class BaseCatalogPage {
     private By addItemButton = By.cssSelector("button._4qhIn2-ESi._2sJs248D-A._18c2gUxCdP._3hWhO4rvmA");
     private By freeDeliveryText = By.cssSelector("b.voCFmXKfcL");
     private By brushes = By.xpath("//div[@data-zone-name='cartButton']//button");
-
     private By headerButton = By.className("header2-nav__user");
     private By inputUsernameField = By.id("passp-field-login");
     private By logInButton = By.xpath("//button[@class=\"control button2 button2_view_classic button2_size_l " +
@@ -30,8 +29,6 @@ public class BaseCatalogPage {
             "button2_width_max button2_type_submit passp-form-button\"]" +
             "[.//span[contains(text(), 'Войти')]]");
     private By inputPasswordField = By.id("passp-field-passwd");
-    private By profileItem = By.xpath("//div[@class='header2-nav__user']//span[@title]");
-
     private By itemCatalog = By.xpath("//button[.//span[contains(text(), 'Каталог товаров')]]");
     private By sectionBeautyAndHygiene = By.xpath("//a[@data-id=\"77088\"]");
     private By electricBrushesSection = By.xpath("//a" +
@@ -50,15 +47,11 @@ public class BaseCatalogPage {
     @Step("Loging in")
     public void logIn(String email, String password) {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("header2-user")));
-
         driver.findElement(headerButton).click();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(inputUsernameField)));
-
         driver.findElement(inputUsernameField).sendKeys(email);
-
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("passp-field-passwd")));
-
         this.sendKeysTo(driver.findElement(inputPasswordField), password);
         driver.findElement(logInButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("header2-nav__user")));
@@ -66,7 +59,6 @@ public class BaseCatalogPage {
 
     @Step("Set up price range")
     public void setUpPriceRange(String in, String out) {
-
         this.sendKeysTo(driver.findElement(inputPriceTextbox), in);
         this.sendKeysTo(driver.findElement(outputPriceTextbox), out);
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("_1PQIIOelRL")));
@@ -97,11 +89,10 @@ public class BaseCatalogPage {
         List <WebElement> toothbrushesList = driver.findElements(brushes);
         WebElement penultimateToothbrush = toothbrushesList.get(toothbrushesList.size() - 2);
         penultimateToothbrush.click();
-
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("span.header2-nav-item__icon_type_cart")));
         driver.findElement(addToTheCartButton).click();
-        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//span[contains(text(), " +
-        //        "'Перейти к оформлению')]")));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//span[contains(text(), " +
+                "'Перейти к оформлению')]")));
 
     }
 
@@ -115,25 +106,21 @@ public class BaseCatalogPage {
                 "._18c2gUxCdP._3hWhO4rvmA")));
         Integer priceDeltaUntillFreeDelivery = 2999 - price;
         while (priceDeltaUntillFreeDelivery > 0) {
-            //takeScreenShot(addItemButton);
             driver.findElement(addItemButton).click();
             priceDeltaUntillFreeDelivery -= price;
         }
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//b[contains(text(),'бесплатную доставку')]")));
-        Assert.assertEquals(driver.findElement(freeDeliveryText).getAttribute("textContent"), "бесплатную доставку");
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//b[contains(text()," +
+                "'бесплатную доставку')]")));
+        Assert.assertEquals(driver.findElement(freeDeliveryText).getAttribute("textContent"),
+                "бесплатную доставку");
     }
 
     @Step("Go to electric brushes catalog")
     public void goToElectricBrushesCatalog() {
-        // открываем каталог товаров
         driver.findElement(itemCatalog).click();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("n-navigation-vertical-category")));
-
-        // переходим в раздел "Красота и гигиена"
         driver.findElement(sectionBeautyAndHygiene).click();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("catalog-menu__item")));
-
-        // переходим в раздел Электрических зубных щеток
         driver.findElement(electricBrushesSection).click();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]")));

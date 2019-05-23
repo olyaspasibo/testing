@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
 public class TestListener extends TestListenerAdapter {
+
     @Override
     public void onTestFailure(ITestResult result) {
         makeText("Screenshot on test failure");
@@ -14,7 +15,7 @@ public class TestListener extends TestListenerAdapter {
     }
 
     @Attachment(value = "Screenshot information")
-    private static String makeText(String text) {
+    private static String makeText(String text){
         return text;
     }
 
