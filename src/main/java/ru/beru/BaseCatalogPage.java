@@ -1,4 +1,4 @@
-package page_object_classes;
+package ru.beru;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -89,11 +89,11 @@ public class BaseCatalogPage {
         List <WebElement> toothbrushesList = driver.findElements(brushes);
         WebElement penultimateToothbrush = toothbrushesList.get(toothbrushesList.size() - 2);
         penultimateToothbrush.click();
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("span.header2-nav-item__icon_type_cart")));
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("span.header2-nav-item__" +
+                "icon_type_cart")));
         driver.findElement(addToTheCartButton).click();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//span[contains(text(), " +
                 "'Перейти к оформлению')]")));
-
     }
 
     @Step("Add item into cart until free delivery")
@@ -101,7 +101,6 @@ public class BaseCatalogPage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("div._1D9zRlTN8r")));
         Integer price  = Integer.parseInt(driver.findElement(itemPrice).getText().replaceAll("\\s+",
                 ""));
-
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("button._4qhIn2-ESi._2sJs248D-A" +
                 "._18c2gUxCdP._3hWhO4rvmA")));
         Integer priceDeltaUntillFreeDelivery = 2999 - price;
@@ -125,5 +124,4 @@ public class BaseCatalogPage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
                 "//input[@class=\"_2yK7W3SWQ- _1d02bPcWht\"]")));
     }
-
 }

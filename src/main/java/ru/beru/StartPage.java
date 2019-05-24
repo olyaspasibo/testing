@@ -1,4 +1,4 @@
-package page_object_classes;
+package ru.beru;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -25,14 +25,13 @@ public class StartPage {
             "suggest2-item_type_text\"][.//strong]");
     private By continueWithNewRegionButton = By.xpath("//button[@type=\"submit\"]" +
             "[.//span[contains(text(), 'Продолжить с новым регионом')]]");
-    private  By personProfileItem = By.xpath("//a[@href=\"/my/settings?track=menu\"]");
+    private By personProfileItem = By.xpath("//a[@href=\"/my/settings?track=menu\"]");
     private By headerItem = By.className("header2__nav");
 
     public StartPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
     }
-
 
     public void sendKeysTo(WebElement input, String st) {
         input.click();
@@ -84,9 +83,8 @@ public class StartPage {
     }
 
     @Step("Check city-name property")
-    public void checkCityValue(String city_test) {
+    public void checkCityValue(String city) {
         WebElement i = driver.findElement(By.className("link_pseudo_yes"));
-        Assert.assertTrue(i.getText().contains(city_test));
+        Assert.assertTrue(i.getText().contains(city));
     }
-
 }

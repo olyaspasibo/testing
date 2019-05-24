@@ -25,7 +25,6 @@ public class WebDriverSettings  {
 
     @BeforeMethod
     public void setUp() {
-
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new EventFiringWebDriver(new ChromeDriver());
         driver.get("https://beru.ru");
@@ -56,11 +55,11 @@ public class WebDriverSettings  {
     @Attachment
     public void takeScreenShot(WebElement element) {
         try {
-        highLight(element);
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String fileName = UUID.randomUUID().toString();
-        File targetFile = new File("screenshots/" + fileName + ".png");
-        FileUtils.copyFile(scrFile, targetFile);
+            highLight(element);
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            String fileName = UUID.randomUUID().toString();
+            File targetFile = new File("screenshots/" + fileName + ".png");
+            FileUtils.copyFile(scrFile, targetFile);
         }
         catch(IOException e) {
             e.printStackTrace();
@@ -72,5 +71,4 @@ public class WebDriverSettings  {
         JavascriptExecutor js = driver;
         js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
     }
-
 }
